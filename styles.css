@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Inter:wght@400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Delius+Unicase:wght@700&family=Inter:wght@400;500;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    background: #fff;
+    max-width: 100%;
+    font-size: 20px;
+    max-height: max-content;
+}
+
+.navbar {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    padding: 25px 40px;
+    font-weight: 400;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 0;
+    background: #6F6AF7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: 'Delius Unicase', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.search button i {
+    font-size: 20px;
+    background-color: transparent;
+    color: #9F9F9F;
+}
+
+.search button {
+    margin-left: -50px;
+    background-color: transparent;
+    border: none;
+}
+
+#searchButton{
+    border: none;
+    width: 250px;
+    height: 50px;
+    flex-shrink: 0;
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 63px;
+    background: #FFF;
+}
+
+.burgerking {
+    font-size: 40px;
+    color: #FFF;
+}
+
+/* Finally navbar is completed *crying* -------- */
+
+.social-media {
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    height: max-content;
+}
+
+.icon {
+    padding: 1px;
+    border: 3px solid black;
+    margin-top: 2px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 4px;
+}
+
+.social-container {
+}
+
+.social-container img {
+    height: 50px;
+    width: 50px;
+}
+
+.hero {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    margin-top: 200px;
+}
+
+.hero img {
+    filter: drop-shadow(4px 10px 10px rgb(112, 112, 112));
+}
+
+.hero-photo {
+    margin-left: 100px;
+}
+
+.input-box {
+    margin-right: 100px;
+    background-color: #E5D8FF;
+    color: #6F7373;
+    padding: 20px 20px;
+    width: 50%;
+    border-radius: 20px;
+    border: 6px solid #FFF;
+    background: #E5D8FF;
+    box-shadow: 3px 5px 27px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.questions {
+    position: absolute;
+    width: 100%;
+    margin-top: 850px;
+    padding: 30px 100px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question-item {
+    padding: 10px 50px;
+    color: white;
+    border-radius: 11px;
+    filter: drop-shadow(4px 10px 10px rgb(145, 145, 145));
+}
+
+.question-item .h4-note {
+    margin-bottom: 15px;
+}
+
+.item1 {
+    background: #929DFF;
+}
+
+.item2 {
+    background-color: #734CF2;
+}
+
+.item3 {
+    background-color: #D288FF;
+}
+
+.item4 {
+    background-color: #000;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 87%;
+    margin-top: 1100px;
+    padding: 20px 50px;
+    position: absolute;
+    background-color: #483EFF;
+    margin-bottom: 80px;
+}
+
+.left {
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    font-size: 30px;
+    color: white;
+    min-height: 500px;
+}
+
+.note {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    padding:30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.note1 {
+    background-color: #BCE0F6;
+    color: black;
+    filter: drop-shadow(4px 10px 10px rgb(23, 23, 23));
+}
+
+.note2 {
+    border: 3px solid white;
+}
+
+.note3 {
+    border: 3px solid white;
+}
+
+.right {
+    position: relative;
+    background-color: white;
+    width: 70%;
+    padding: 30px 60px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+.right ul{
+    list-style: none;
+    font-size: 20px;
+    line-height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.right-button{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    font-weight: lighter;
+    border-radius: 10px;
+}
+
+.main-info {
+    font-size: 40px;
+}
+
+#contact {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 5px;
+}
+
+#contact img {
+    width: 70%;
+}
+
+
+/* My doubt ---- Why my sticky position didn't work  */
